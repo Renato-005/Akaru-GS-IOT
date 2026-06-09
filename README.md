@@ -10,6 +10,18 @@
 
 ---
 
+## 👥 Integrantes
+
+| Nome | RM | Papel no Akaru |
+|---|---|---|
+| Luann Noqueli Klochko | RM560313 | App mobile React Native |
+| Juan Pablo Rebelo Coelho | RM560445 | API .NET — gestão de usuários, plantios e histórico |
+| Lucas Higuti Fontanezi | RM561120 | Banco de dados Oracle PL/SQL |
+| Victor Rodrigues De Lima Lourenco | RM560087 | API Java + integração Gemini + DevOps Azure |
+| Renato Silva Alexandre Bezerra | RM560928 | Arquitetura (TOGAF/ArchiMate) + Disruptive IA Generativa |
+
+---
+
 ## 1. Descrição da solução
 
 Pequenos agricultores brasileiros frequentemente plantam fora da época ideal por falta de
@@ -201,9 +213,12 @@ testar os endpoints diretamente, use o Swagger:
 > Pelo Swagger é possível registrar um usuário, obter o token JWT, autorizar e então testar
 > os endpoints de IA (`/api/iakaru/chat` e `/api/recomendacao`) sem precisar do app.
 
-### 5.3. Código-fonte do aplicativo mobile
+### 5.3. Repositórios do projeto
 
-Repositório React Native / Expo: `https://github.com/luannoq/Projeto-mandacaru`
+| Componente | Repositório |
+|---|---|
+| Backend Java + DevOps (Azure) | `https://github.com/VoyDcode/Akaru-GS-Java` |
+| Aplicativo mobile (React Native / Expo) | `https://github.com/luannoq/Projeto-mandacaru` |
 
 ---
 
@@ -336,18 +351,6 @@ akaru-java/
 | Vídeo (YouTube, não listado, até 3 min) | ✅ [Assistir](https://youtu.be/A2B-tGzG72I) |
 
 > 🎥 **Vídeo de demonstração:** https://youtu.be/A2B-tGzG72I
-
----
-
-## 10. Equipe
-
-| Integrante | Papel |
-|---|---|
-| Juan Pablo | API .NET — gestão de usuários, plantios e histórico |
-| Lucas Higuti | Banco de dados Oracle PL/SQL |
-| Luann | App mobile React Native |
-| Victor | API Java + integração Gemini + DevOps Azure |
-| Renato | Arquitetura (TOGAF/ArchiMate) + Disruptive IA Generativa |
 
 ---
 
