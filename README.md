@@ -138,7 +138,7 @@ garantindo respostas consistentes e estruturadas.
 O agente de IA também possui um **system prompt** configurado no Google AI Studio, que define
 sua identidade, regras de comportamento, a base de conhecimento das 10 culturas e um módulo de
 diagnóstico visual de doenças por imagem. O system prompt completo está documentado em
-[`docs/system-prompt-akaru.md`](docs/system-prompt-akaru.md).
+[`System_Prompt/system_prompt_akaru.md`](System_Prompt/system_prompt_akaru.md).
 
 ---
 
