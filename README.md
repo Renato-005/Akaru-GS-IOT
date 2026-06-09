@@ -181,12 +181,20 @@ a API REST e o Swagger para inspeção técnica.
 
 ### 5.1. Testar pelo aplicativo (recomendado para avaliação)
 
-> 📱 **Download do APK:** [`Releases` do repositório](https://github.com/luannoq/Projeto-mandacaru/releases) — baixar o arquivo `.apk` da última release e instalar no Android.
+> 📱 **Download do APK (Android):** https://github.com/Renato-005/Akaru-GS-IOT/releases/download/v1.0.0/APK.AKARU.apk
 
-> *(Substituir pelo link direto da release assim que o APK for publicado, ex:
-> `https://github.com/luannoq/Projeto-mandacaru/releases/download/v1.0.0/akaru.apk`)*
+**Como instalar:**
 
-O app já vem apontado para a API de produção no Azure — basta instalar, criar uma conta e usar.
+1. Baixe o arquivo `APK.AKARU.apk` no celular Android.
+2. Abra o arquivo para iniciar a instalação.
+3. Ao aparecer o aviso *"App bloqueado pelo Play Protect"*, toque em **"Mais detalhes"** e depois em **"Instalar mesmo assim"**. Esse aviso é normal para qualquer app instalado fora da Play Store — não indica problema no aplicativo.
+4. Abra o app, crie uma conta e use.
+
+> ⏱️ **Cold start:** a primeira requisição (login, lista de culturas) pode demorar de 10 a 30
+> segundos, pois o backend no Azure "acorda" após inatividade. A partir da segunda requisição
+> o tempo de resposta volta ao normal.
+
+O app já vem apontado para a API de produção no Azure — basta instalar e usar.
 
 **Fluxo de uso no app:**
 
@@ -217,6 +225,7 @@ testar os endpoints diretamente, use o Swagger:
 
 | Componente | Repositório |
 |---|---|
+| Arquitetura + Disruptive IA (esta entrega) | `https://github.com/Renato-005/Akaru-GS-IOT` |
 | Backend Java + DevOps (Azure) | `https://github.com/VoyDcode/Akaru-GS-Java` |
 | Aplicativo mobile (React Native / Expo) | `https://github.com/luannoq/Projeto-mandacaru` |
 
